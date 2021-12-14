@@ -6,14 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Chicken 404</title>
     <link rel="stylesheet" href="./assests/css/style.css">
+    <script src="./assests/js/app.js" type="module"></script>
 </head>
 <body>
-    <div class="world">
-        <div class="score">0</div>
-        <div class="start-screen">Press any key to start</div>
-        <img src="./assests/sprite/ground.webp" class="ground">
-        <img src="./assests/sprite/ground.webp" class="ground">
-        <img src="./assests/sprite/chicken-stationary.webp" class="chicken">
+    <div class="world" data-world>
+        <div class="score" data-score>SCORE: 0</div>
+        <div class="start-screen" data-start-screen>Press any key to start</div>
+        <img src="./assests/sprite/ground.webp" class="ground" data-ground>
+        <img src="./assests/sprite/ground.webp" class="ground" data-ground>
+        <img src="./assests/sprite/chicken-stationary.webp" class="chicken" data-chicken>
     </div>
 </body>
 </html>
